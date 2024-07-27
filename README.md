@@ -1,40 +1,27 @@
-# Welcome to Remix!
+# remix-biome-template
 
-- 📖 [Remix docs](https://remix.run/docs)
+Remix + Biome starter template.
 
-## Development
+## Getting Started
 
-Run the dev server:
-
-```shellscript
-npm run dev
+```bash
+bunx degit u1aryz/remix-biome-template my-app
+cd my-app
+bun install
 ```
 
-## Deployment
+## Commands
 
-First, build your app for production:
+All commands are run from the root of the project, from a terminal:
 
-```sh
-npm run build
-```
+| Command             | Action                                      |
+|:--------------------|:--------------------------------------------|
+| `bun run dev`       | Starts local dev server at `localhost:5173` |
+| `bun run build`     | Build your production code to `./build/`    |
+| `bun run start`     | Starts production server, before building   |
+| `bun run format`    | Format & Lint by Biome                      |
+| `bun run typecheck` | Check TypeScript types, No compiling        |
 
-Then run the app in production mode:
+## License
 
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+[MIT License](LICENSE)
