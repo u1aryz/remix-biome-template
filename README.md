@@ -20,7 +20,7 @@ All commands are run from the root of the project, from a terminal:
 | `bun run build`     | Build your production code to `./build/`    |
 | `bun run start`     | Starts production server, before building   |
 | `bun run format`    | Format & Lint by Biome                      |
-| `bun run typecheck` | Check TypeScript types, No compiling        |
+| `bun run typecheck` | Check types, No compiling                   |
 
 ## License
 
